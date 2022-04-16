@@ -13,12 +13,13 @@
 // never     - never returns anything... like 'throw' to throw an error
 // Date      - based on js date object
 
-function addIt(n1: number, n2: number) {
-  return n1 + n2
-}
+// Interfaces - describes what a variable or function should look like
+//              helpful for forcing your classes (multiple) to have the same structure
+//              can also be used on variables and its like making your own types
 
-const number1 = 5
-const number2 = 2.8
+// T or U, etc - Generic Types. <T> used to used to give flexibility.
+//               <T extends string | number | boolean>
 
-const result = addIt(number1, number2)
-console.log(result)
+// Partial      - used like Partial<InterfaceName> where you set up an interface and tell it that the
+//                variables and types in the interface are optional. good for when you want to add those types in steps
+//                return interfaceVariable as InterfaceName

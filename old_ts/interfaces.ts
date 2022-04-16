@@ -7,7 +7,7 @@ interface AddFn {
 
 // let add: AddFn
 
-const add: AddFn = (n1: number, n2: number) => {
+const adding: AddFn = (n1: number, n2: number) => {
   return n1 + n2
 }
 

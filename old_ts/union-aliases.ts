@@ -1,8 +1,8 @@
-type Combinable = number | string
+type Connected = number | string
 
 function combine(
-  input1: Combinable,
-  input2: Combinable,
+  input1: Connected,
+  input2: Connected,
   resultConv: 'as-num' | 'as-text'
 ) {
   let result
